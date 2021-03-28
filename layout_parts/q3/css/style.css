@@ -3,17 +3,16 @@
 /* 回答はここに書いてね */
 .table{
   text-align: center;
-  /* border-collapse: collapse; */
-  border: solid #dedede 1px;
   width: 100%;
   table-layout: fixed;
 }
 
-/* .table tr:nth-child(n){
+.table tr th,td:nth-child(n){
   padding: 10px 0;
   font-size: 16px;
   line-height: 22px;
-} */
+  border: solid #dedede 1px;
+}
 
 .table tr:nth-child(odd){
   background-color: #ecf1f2;
