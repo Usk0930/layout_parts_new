@@ -2,4 +2,96 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.fontSizeReset {
+  font-size:0;
+}
+
+.q7__box-common {
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.is-float-left-box {
+  float: left;
+}
+
+.is-float-right-box {
+  float: right;
+}
+
+.q7__table-box {
+  display: table;
+  table-layout: fixed;
+  width: 500px;
+}
+
+.is-table-left-box {
+  display: table-cell;
+}
+
+.is-table-right-box {
+  margin-left: 50px;
+}
+
+/* ↓右側に謎の隙間ができてしまう・・ */
+/* HTMLの改行スペースが原因らしい⇒改行を半角スペースとして読み込んでしまっている
+参考https://qiita.com/nabettu/items/f34624d9094276d05e70 */
+.is-inlineblock-left-box {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.is-inlineblock-right-box {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+.q7__flex-box {
+  display: flex;
+}
+
+.is-flex-left-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.is-flex-right-box {
+  margin: auto;
+}
+
+.is-margin-wrapper {
+  font-size: 0;
+}
+
+.is-margin-left-box {
+  display: inline-block;
+  width: 300px;
+  margin-right: 50px;
+}
+
+.is-margin-right-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin-left: -350px;
+}
+
+.is-margin-left-text {
+  font-size: 16px;
+}
+
+.is-margin-right-text {
+  margin-left: 350px;
+  font-size: 16px;
+}
 /* 回答はここに書いてね */

@@ -7,14 +7,14 @@ content:'';
 clear: both;
 }
 
-.q1_content{
+.q1__content {
   width: 900px;
   padding: 20px;
   margin: 0 auto;
   background-color: #eff3f4;
 }
 
-.q1_content_box{
+.q1__content__box {
   float: left;
   padding: 20px;
   width: 230px;
@@ -22,11 +22,11 @@ clear: both;
   background-color: #3274ae;
 }
 
-.q1_content .q1_content_box:first-child {
+.q1__content__box:first-child {
   margin-left: 0;
 }
 
-.q1_content_text{
+.q1__content__text {
   font-size: 16px;
   line-height: 16px;
   padding: 20px;

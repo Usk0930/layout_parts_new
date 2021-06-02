@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* 参考　https://lpeg.info/html/css_bubble.html */
+
+.q9__text {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 16px;
+  border: solid 5px #222;
+  border-radius: 30px;
+}
+
+.q9__text::before {
+  content: "";
+  position: absolute;
+  bottom: -20%;
+  left: 7.1%;
+  border: 17px solid transparent;
+  border-top: 19px solid white;
+  z-index: 2;
+}
+
+.q9__text::after {
+  content: "";
+  position: absolute;
+  bottom: -25%;
+  left: 7%;
+  border: 18px solid transparent;
+  border-top: 20px solid #222;
+  z-index: 1;
+}
 
 /* 回答はここに書いてね */
