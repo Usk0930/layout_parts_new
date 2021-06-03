@@ -9,7 +9,7 @@
 }
 
 .fontSizeReset {
-  font-size:0;
+  font-size: 0;
 }
 
 .q7__box-common {
@@ -42,9 +42,6 @@
   border-left: 0;
 }
 
-/* ↓右側に謎の隙間ができてしまう・・ */
-/* HTMLの改行スペースが原因らしい⇒改行を半角スペースとして読み込んでしまっている
-参考https://qiita.com/nabettu/items/f34624d9094276d05e70 */
 .is-inlineblock-box {
   display: inline-block;
   font-size: 16px;
