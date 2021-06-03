@@ -5,21 +5,21 @@
   text-align: center;
 }
 
-.q6_text_textalign {
-  display: inline-block;
-  background-color: #e6f2ff;
+.q6_text_common {
   width: 90px;
   padding: 10px;
-  box-sizing:border-box;
+  box-sizing: border-box;
+  background-color: #e6f2ff;
+}
+
+.q6_text_textalign {
+  display: inline-block;
+
 }
 
 .q6_text_margin {
   text-align: center;
   margin: 0 auto;
-  background-color: #e6f2ff;
-  width: 90px;
-  padding: 10px;
-  box-sizing: border-box;
 }
 
 .q6_around_table {
@@ -53,18 +53,19 @@
   position: relative;
 }
 
-.q6__box__stable_inner_text {
+.q6_box_position_common {
   position: absolute;
+}
+
+.q6_box_stable_inner_text {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 0;
   margin: auto;
 }
 
-.q6__box__flexible_inner_text {
-  position: absolute;
+.q6_box_flexible_inner_text {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

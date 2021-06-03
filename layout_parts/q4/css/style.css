@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4 {
+.q4__wrapper {
   padding: 20px;
   background-color: #ECF1F2;
 }
@@ -20,7 +20,7 @@
 
 .q4_content_element {
   display: table-cell;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
 }
 
 .is-pink {

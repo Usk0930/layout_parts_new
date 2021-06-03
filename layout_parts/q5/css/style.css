@@ -7,15 +7,16 @@
   margin: 0 auto;
   background-color: #ecf1f2;
   position: relative;
-  text-align: center;
-  font-size: 18px;
-  line-height: 100px;
 }
 
 .q5_content_box {
   position: absolute;
   width: 100px;
   height: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 100px;
 }
 
 .is_1 {
@@ -79,7 +80,6 @@
   top: 10px;
   left: 10px;
   background-color: #3b69a3;
-  z-index: 0;
 }
 
 .is_8::before {

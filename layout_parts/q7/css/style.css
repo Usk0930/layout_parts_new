@@ -19,12 +19,13 @@
   vertical-align: middle;
 }
 
-.is-float-left-box {
+.is-float-box {
   float: left;
+  margin-left: 50px;
 }
 
-.is-float-right-box {
-  float: right;
+.is-float-box:first-child {
+  margin-left: 0;
 }
 
 .q7__table-box {
