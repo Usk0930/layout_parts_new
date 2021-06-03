@@ -22,7 +22,7 @@
   left: 7.1%;
   border: 17px solid transparent;
   border-top: 19px solid white;
-  z-index: 2;
+  z-index: 20;
 }
 
 .q9__text::after {
@@ -32,7 +32,7 @@
   left: 7%;
   border: 18px solid transparent;
   border-top: 20px solid #222;
-  z-index: 1;
+  z-index: 10;
 }
 
 /* 回答はここに書いてね */
