@@ -14,14 +14,23 @@
 
 .q7__box-common {
   width: 225px;
-  box-sizing: border-box;
   font-size: 16px;
-  vertical-align: middle;
+  /* box-sizing: border-box;
+  vertical-align: middle; */
+}
+
+.is-margin-box-common {
+  display: inline-block;
+}
+
+.is-margin-text-common {
+  font-size: 16px;
 }
 
 .is-float-box {
   float: left;
   margin-left: 50px;
+  box-sizing: border-box;
 }
 
 .is-float-box:first-child {
@@ -34,18 +43,22 @@
 
 .is-table-box {
   display: table-cell;
-  border-left: 50px solid transparent;
-  box-sizing: content-box;
+  /* border-left: 50px solid transparent; */
+  padding-left: 50px;
+  vertical-align: middle;
+  /* box-sizing: content-box; */
 }
 
 .is-table-box:first-child {
-  border-left: 0;
+  padding-left: 0;
 }
 
 .is-inlineblock-box {
   display: inline-block;
   font-size: 16px;
   margin-left: 50px;
+  box-sizing: border-box;
+  vertical-align: middle;
 }
 
 .is-inlineblock-box:first-child {
@@ -54,40 +67,45 @@
 
 .q7__flex-box {
   display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .is-flex-box {
-  margin: auto;
+  /* margin: auto; */
+  box-sizing: border-box;
 }
 
-.is-flex-box:first-child {
+/* .is-flex-box:first-child {
   margin-bottom: 0;
-}
+} */
 
 .fontSizeReset {
   font-size: 0;
 }
-
+/* 
 .is-margin-box-common {
   display: inline-block;
-}
+} */
 
 .is-margin-left-box {
   width: 300px;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 .is-margin-right-box {
   vertical-align: top;
   width: 100%;
-  margin-left: -350px;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
-
+/* 
 .is-margin-text-common {
   font-size: 16px;
-}
+} */
 
-.is-margin-right-text {
+/* .is-margin-right-text {
   margin-left: 350px;
-}
+} */
 /* 回答はここに書いてね */
